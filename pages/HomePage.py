@@ -71,8 +71,7 @@ class HomePage(BasePage):
         time.sleep(5)
         if actual_items_count != expected_items_count:
             print(f"Expected {expected_items_count} items, but got {actual_items_count}")
-        else:
-            pass
+
 
     def enter_album_item_page(self):
         self.do_click(self.album_product_link)
